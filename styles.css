@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo-img {
-  height: 52px;
+  height: 62px;
   width: auto;
   object-fit: contain;
 }
@@ -600,8 +600,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
-  aspect-ratio: 4/3;
+  aspect-ratio: 1/1;
   object-fit: cover;
+  object-position: center top;
 }
 
 .sobre__badge-float {
@@ -723,6 +724,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   object-fit: cover;
   transition: transform var(--transition);
+}
+
+.servico-card__image img[src$="clinica_veterinaria.png"] {
+  object-position: center 78%;
 }
 
 .servico-card:hover .servico-card__image img {
@@ -1504,7 +1509,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .logo-img {
-    height: 44px;
+    height: 52px;
   }
 
   /* Hero */
